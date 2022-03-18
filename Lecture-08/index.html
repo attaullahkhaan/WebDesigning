@@ -1,0 +1,61 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <title>Form Part-2</title>
+  </head>
+  <body>
+      <form>
+        <fieldset>
+            <img src="logo.jpg" alt="VertexSoft Logo">
+            <h1>Registration Form</h1>
+
+            <label for="name">Full Name: </label>
+            <input type="text" id="name" name="fullName" value="" required placeholder="Enter your full name"> <br> <br>
+
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" value="" placeholder="Enter your Email"> <br> <br>
+
+            Gender
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label> <br> <br>
+
+            Please Select Your Courses <br> <br>
+            <input type="checkbox" name="courses" id="html" value="HTML">
+            <label for="html">HTML</label> <br>
+
+            <input type="checkbox" name="courses" id="css" value="CSS">
+            <label for="css">CSS</label> <br>
+
+            <input type="checkbox" name="courses" id="bootstrap" value="Bootstrap">
+            <label for="bootstrap">Bootstrap</label> <br> <br>
+
+            <label for="country">Please Select your Country</label>
+            <select name="country" placeholder="Select Country">
+                <option value="0" selected disabled>Select Country </option>
+                <option>Pakistan</option>
+                <option>Australia</option>
+                <option disabled>America</option>
+                <option disabled>Iran</option>
+            </select> <br> <br>
+
+            <label for="color">Select Your Favorite Color</label>
+            <input type="color" id="color" value="" name="color"> <br> <br>
+
+
+            <label for="dob">Select Your DOB</label>
+            <input type="date" id="dob" value="" required name="dob"> <br> <br>
+
+            <!-- <label for="dateTime">Select Date and current Time</label>
+            <input type="datetime-local" id="dateTime" value="" name="dob"> <br> <br> -->
+
+            <input type="submit" value="Submit">
+
+            <!-- <br> <br>
+            <input type="button" onclick="alert('Lorem Ipsum is simply dummy text of the printing and typesetting industry.')" value="Click i will show magic"> -->
+        </fieldset>
+      </form>
+  </body>
+  </html>
