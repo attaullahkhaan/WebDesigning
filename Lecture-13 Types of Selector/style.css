@@ -1,0 +1,38 @@
+/* Unit Selector */
+p {
+    color: darkblue;
+    font-family: Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+
+
+/* Universal Selector */
+* {
+    padding: 5px;
+    /* border: 1px solid olive; */
+}
+
+
+/* Class Selector */
+.tomatoColor {
+    color: tomato;
+    font-size: 70px;
+    background-color: bisque;
+    font-family: Verdana, sans-serif;
+    text-shadow: 4px 2px 5px olive;
+}
+
+
+/* Class Selector  */
+.oliveColor {
+    color: olive;
+}
+
+
+/* ID Selector */
+#tomatoColor {
+    color: olive;
+    font-size: 60px;
+    background-color: bisque;
+    font-family: Verdana, sans-serif;
+}
