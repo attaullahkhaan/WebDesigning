@@ -1,0 +1,40 @@
+body {
+    background-color: aquamarine;;
+}
+
+.main-list li {
+    color: darkblue;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.size {
+    font-size: 90px;
+}
+
+/* Alignment  */
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.fontweight {
+    font-weight: 200;
+}
+
+#item {
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
