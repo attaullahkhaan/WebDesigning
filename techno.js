@@ -1,4 +1,4 @@
-let light= “green”;
+let light= "green";
 if(light == "green") {
  console.log("Drive")
 } else if (light == "orange") {
@@ -8,3 +8,5 @@ if(light == "green") {
 } else {
  console.log("The car is not green, orange, or red");
 }
+
+// NABIL KHAN
